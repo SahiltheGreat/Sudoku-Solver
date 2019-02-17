@@ -6,6 +6,7 @@ using namespace std;
 bool FindUnassLoc(int grid[N][N],int& row,int& col);
 bool isSafe(int grid[N][N],int row,int col,int num);
 bool Solve(int grid[N][N]);
+void printGrid(int grid[N][N]);
 int main()
 {
     int i,j,arr[N][N];
